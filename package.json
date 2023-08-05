@@ -1007,7 +1007,7 @@
         "mac": "cmd+pageup",
         "when": "editorTextFocus && editorLangId == 'rmd'"
       }
-    ]
+    ],
     "menus": {
       "editor/title/run": [
         {
