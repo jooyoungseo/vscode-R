@@ -994,8 +994,20 @@
         "key": "Ctrl+shift+v",
         "mac": "cmd+shift+v",
         "when": "editorTextFocus && editorLangId == 'rmd'"
+      },
+      {
+        "command": "r.goToNextChunk",
+        "key": "ctrl+pagedown",
+        "mac": "cmd+pagedown",
+        "when": "editorTextFocus && editorLangId == 'rmd'"
+      },
+      {
+        "command": "r.goToPreviousChunk",
+        "key": "ctrl+pageup",
+        "mac": "cmd+pageup",
+        "when": "editorTextFocus && editorLangId == 'rmd'"
       }
-    ],
+    ]
     "menus": {
       "editor/title/run": [
         {
