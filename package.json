@@ -1006,6 +1006,15 @@
         "key": "ctrl+pageup",
         "mac": "cmd+pageup",
         "when": "editorTextFocus && editorLangId == 'rmd'"
+      },
+      {
+        "key": "ctrl+alt+i",
+        "mac": "cmd+alt+i",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == 'rmd'",
+        "args": {
+          "name": "Insert code chunk"
+        }
       }
     ],
     "menus": {
