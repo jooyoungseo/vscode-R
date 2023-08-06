@@ -1008,9 +1008,9 @@
         "when": "editorTextFocus && editorLangId == 'rmd'"
       },
       {
+        "command": "editor.action.insertSnippet",
         "key": "ctrl+alt+i",
         "mac": "cmd+alt+i",
-        "command": "editor.action.insertSnippet",
         "when": "editorTextFocus && editorLangId == 'rmd'",
         "args": {
           "name": "Insert code chunk"
